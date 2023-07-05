@@ -1,38 +1,385 @@
-.App {
+@font-face {
+  font-family: eurostar;
+  src: url(../src/fonts/eurostarblack.ttf);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+/*font-family: 'Open Sans', sans-serif;*/
+
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+/*CSS HEADER*/
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.titles-black {
+  font-family: eurostar;
+  font-size: 2.4em;
+  margin-bottom: 20px;
+  color: rgb(36, 32, 56);
+  font-weight: bolder;
+}
+
+#nav {
+  display: flex;
+}
+
+#navbar-menu {
+  display: flex;
+  align-items: center;
+}
+
+#containerHeader {
+  margin: auto;
+  display: flex;
+  width: 70%;
+  padding: 26px;
+  justify-content: flex-start;
+}
+
+#navbar-start {
+  justify-content: flex-start;
+  margin-right: auto;
+  width: 30vw;
+  height: 30px;
+  display: flex;
+}
+
+#navbar-end {
+  width: 30vw;
+  justify-content: flex-end;
+  margin-left: auto;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-but {
+  text-decoration: none;
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1.2em;
+  padding: 8px 12px 8px 12px;
+  align-items: center;
+  font-weight: lighter;
+}
+
+.purple-but {
+  text-decoration: none;
+  color: rgb(111, 4, 199);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 1.2em;
+  padding: 8px 12px 8px 12px;
+  align-items: center;
+  font-weight: lighter;
+  border: 3.34px solid rgb(111, 4, 199);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  max-width: 200px;
+}
+
+/*CSS MAIN-CARTOON*/
+
+#corpo {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  flex-direction: column;
+}
+
+#cabecalho {
+  justify-content: center;
+  padding: 50px;
+}
+
+#colums {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-p {
+  margin-bottom: 20px;
+  color: rgb(36, 32, 56);
+  font-size: 1.3em;
+  font-weight: 400;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#cabecalho-computer {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 100px;
+}
+
+#cartoon {
+  width: 40vw;
+  min-width: 400px;
+  margin-bottom: -16px;
+}
+
+/*CSS MID-WELCOME*/
+
+.mid-background {
+  width: 100%;
+  background-color: rgb(111, 4, 199);
+  padding-top: 150px;
+  padding-bottom: 200px;
+}
+
+#container-mid {
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+}
+
+.colums-centered {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+
+.colum-text {
+  flex: none;
+  width: 60%;
+}
+
+.white-title {
+  text-align: center;
   color: white;
+  margin-bottom: 35px;
+  font-family: eurostar;
+  font-size: 2.4em;
 }
 
-.App-link {
-  color: #61dafb;
+.white-p {
+  text-align: center;
+  color: white;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  font-family: "Open Sans", sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.section-startups {
+  margin-top: -100px;
+  text-align: center;
+}
+
+.container-narrow {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.box {
+  border-radius: 20px;
+  background-color: white;
+}
+
+#content-skills {
+  display: flex;
+  border: 1px solid rgba(211, 206, 206, 0.459);
+  border-radius: 20px;
+  align-items: flex-start;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.185);
+}
+
+.colums-skills {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 70px 45px;
+  width: auto;
+  height: auto;
+}
+
+.icon-skills {
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+.colums-skills > p {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(36, 32, 56);
+  font-weight: 500;
+}
+
+#border2 {
+  border-right: 1px solid rgba(211, 206, 206, 0.575);
+  border-radius: 20px 0px 0px 20px;
+}
+
+.colum-title {
+  margin-bottom: 20px;
+  font-family: eurostar;
+}
+
+.second-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  color: rgb(146, 45, 228);
+}
+
+.colums-skills > ul {
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: inherit;
+  vertical-align: baseline;
+  color: rgb(36, 32, 56);
+  font-weight: 500;
+}
+
+.list-skills > li {
+  margin: 10px;
+}
+
+#mid-back {
+  margin-top: 150px;
+}
+
+.startup-grid {
+  margin-bottom: 20px;
+}
+
+#container-poke {
+  max-width: 350px;
+  border: 1px solid rgba(211, 206, 206, 0.459);
+  border-radius: 20px;
+  width: 350px;
+  height: 220px;
+}
+
+.link-box {
+  background-color: rgb(57, 57, 196);
+  z-index: 1;
+  border-radius: 20px;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 90%;
+  height: 220px;
+  position: relative;
+  display: flex;
+}
+
+.none-box {
+  display: none;
+}
+
+#box-poke {
+  position: relative;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.425);
+}
+
+#title-poke {
+  font-size: 1.7em;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  border: 1px solid white;
+  border-radius: 20px;
+  width: 50%;
+  align-self: center;
+  padding: 10px;
+}
+
+.site-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background-image: url("../src/imagens/pokedex.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.purple-but:hover {
+  background-color: rgb(146, 45, 228);
+  color: white;
+  transition: 0.5s;
+}
+
+.texto-footer {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.616);
+  margin: auto;
+  font-family: 'Times New Roman', Times, serif; 
+  font-size: 1.6em;
+  max-width: 350px;
+  margin-top: 50px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  width: 100%;
+}
+
+.icon-small {
+  display: flex;
+  width: 25px;
+  margin: 20px;
+}
+
+.button-medium {
+  margin: 20px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.button-medium:hover {
+  filter: invert(40%);
+}
+
+#g {
+  border: 1px solid rgba(0, 0, 0, 0.507);
+  border-radius: 50%;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.411);
+}
+
+.copyright {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.textcopy {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.726);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.4em;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.514) ;
+}
+
+@media (max-width: 700px) 
+{
+  #content-skills {
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+
+  #border2 {
+    border-right: none;
+  }
+
+  #border1 {
+    border-top: 1px solid rgba(211, 206, 206, 0.575);
+  }
+
+  .button-medium {
+    margin: 2%;
   }
 }
