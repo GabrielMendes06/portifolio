@@ -41,7 +41,7 @@ body {
   margin: auto;
   display: flex;
   width: 70%;
-  padding: 26px;
+  padding-top: 26px;
   justify-content: flex-start;
 }
 
@@ -99,7 +99,7 @@ body {
 
 #cabecalho {
   justify-content: center;
-  padding: 50px;
+  padding-bottom: 50px;
 }
 
 #colums {
@@ -116,7 +116,7 @@ body {
 #cabecalho-computer {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 20px;
 }
 
 #cartoon {
