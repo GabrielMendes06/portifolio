@@ -1,4 +1,5 @@
 import { useState } from "react";
+import MidlePurple from "./MidlePurple";
 
 function MediumPage() {
 
@@ -15,14 +16,10 @@ function MediumPage() {
 
     return(
         <div>
-           <section className="mid-background" id="mid-back">
-                <div className="colums-centered">
-                    <div className="colum-text">
-                        <h1 className="white-title">Meus Projetos!</h1>
-                        <p className="white-p">Ultimamente venho pesquisando sobre projetos para desenvolver e adicionar ao meu portifólio, sei que é um passo importante para quem ainda é carente de experiência profissional comprovada, então, aqui adicionarei meus projetos que serão disponibilizados quando eu os finalizar. Enquanto eu não os tenho disponível, fique a vontade para desfrutar da minha pequena Pokedex!</p>
-                    </div>
-                </div>
-            </section> 
+           <MidlePurple
+            title="Meus Projetos!"
+            paragraph="Ultimamente venho pesquisando sobre projetos para desenvolver e adicionar ao meu portifólio, sei que é um passo importante para quem ainda é carente de experiência profissional comprovada, então, aqui adicionarei meus projetos que serão disponibilizados quando eu os finalizar. Enquanto eu não os tenho disponível, fique a vontade para desfrutar da minha pequena Pokedex!"
+            />
             <section className="section-startups">
                 <div className="container-narrow" id="container-poke" onMouseEnter={TransitionPage} onMouseLeave={PageTransition}>
                         <div className="box" id="box-poke">

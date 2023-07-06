@@ -170,6 +170,7 @@ body {
 .section-startups {
   margin-top: -100px;
   text-align: center;
+  margin-bottom: 100px;
 }
 
 .container-narrow {
@@ -210,11 +211,6 @@ body {
   font-weight: 500;
 }
 
-#border2 {
-  border-right: 1px solid rgba(211, 206, 206, 0.575);
-  border-radius: 20px 0px 0px 20px;
-}
-
 .colum-title {
   margin-bottom: 20px;
   font-family: eurostar;
@@ -228,7 +224,13 @@ body {
   color: rgb(146, 45, 228);
 }
 
-.colums-skills > ul {
+.img-skill {
+  width: 60px;
+  margin: auto;
+  padding: 20px;
+}
+
+.list-skills{
   list-style: none;
   font-family: "Open Sans", sans-serif;
   box-sizing: inherit;
@@ -371,12 +373,10 @@ body {
     flex-direction: column;
   }
 
-  #border2 {
-    border-right: none;
-  }
 
-  #border1 {
+  .colums-skills {
     border-top: 1px solid rgba(211, 206, 206, 0.575);
+    border-radius: 20px;
   }
 
   .button-medium {

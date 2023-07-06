@@ -1,6 +1,8 @@
 import PurpleTecnology from "../imagens/cartoon.png";
 import Support from "../imagens/support.png";
 import Dev from "../imagens/dev.png";
+import MidlePurple from "./MidlePurple";
+import SkillContainer from "./SkillContainer";
 
 function Main() {
   return (
@@ -27,71 +29,36 @@ function Main() {
           </div>
         </div>
       </section>
-      <section className="mid-background">
-        <div id="container-mid">
-          <div className="colums-centered">
-            <div className="colum-text">
-              <h1 className="white-title">
-                Olá, me chamo Gabriel, prazer em conhece-lo!
-              </h1>
-              <p className="white-p">
-                Comecei a estudar programação no final de 2022, com facilidade em aprender e desejo em adquirir conhecimento, construi uma base sólida o
-                suficiente para desenvolver sistemas de forma sutil, eficiente e limpa.
-                Inclusive, apresento-lhe algumas das minhas habilidades através
-                da construção e design desta página, meu portifólio!
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <MidlePurple 
+      title="Olá, me chamo Gabriel, prazer em conhece-lo!"
+      paragraph="Comecei a estudar programação no final de 2022, com facilidade em aprender e desejo em adquirir conhecimento, construi uma base sólida o
+      suficiente para desenvolver sistemas de forma sutil, eficiente e limpa.
+      Inclusive, apresento-lhe algumas das minhas habilidades através
+      da construção e design desta página, meu portifólio!"
+      />
       <section className="section-startups">
         <div className="container-narrow">
           <div className="box">
             <div id="content-skills">
-              <div className="colums-skills" id="border2">
-                <div>
-                  <img src={Dev} className="icon-skills"></img>
-                </div>
-                <h1 className="colum-title">Developer</h1>
-                <p>
-                  Gosto de criar códigos do zero, mantendo sua formatação sempre
-                  limpa e de fácil entendimento.
-                </p>
-                <h2 className="second-title">Ferramentas de desenvolvedor:</h2>
-                <p>Git, Vercel, GitHub, Postman</p>
-                <h2 className="second-title">Linguagens:</h2>
-                <ul className="list-skills">
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>JavaScript</li>
-                  <li>React.js</li>
-                  <li>Next.js</li>
-                  <li>PowerApp(M365)</li>
-                  <li>Bootstrap</li>
-                </ul>
-              </div>
-              <div className="colums-skills" id="border1">
-                <div>
-                  <img src={Support} className="icon-skills"></img>
-                </div>
-                <h1 className="colum-title">Suporte Técnico</h1>
-                <p style={{maxWidth: "560px"}}>
-                  Sempre busco maneiras diretas para automatizar a solução dos
-                  problemas, realizando minhas tarefas com auto desempenho.
-                </p>
-                <h2 className="second-title">Habilidades de infra:</h2>
-                <p>Redes, Switchs, TPC/IP</p>
-                <h2 className="second-title">
-                  Conhecimento de hardwares e softwares:
-                </h2>
-                <ul className="list-skills">
-                  <li>Instalação de impressoras</li>
-                  <li>Montagem de computadores</li>
-                  <li>Atualização de softwares e hardwares</li>
-                  <li>Sistemas operacionais</li>
-                  <li>Migração de rede</li>
-                </ul>
-              </div>
+              <SkillContainer 
+              img={Dev} 
+              title={"Developer"}
+              paragraph={"Gosto de criar códigos do zero, mantendo sua formatação sempre limpa e de fácil entendimento."}
+              subtitle={"Ferramentas de desenvolvedor:"}
+              paragraph1={"Git, Vercel, GitHub, Postman"}
+              subtitle1={"Linguagens:"}
+              skills={["HTML", "CSS", "JavaScript", "React.js", "Next.js", "PowerApp(M365)", "Bootstrap"]}
+              bRight={"1px solid rgba(211, 206, 206, 0.575)"}
+              />
+              <SkillContainer
+              img={Support}
+              title={"Suporte Técnico"}
+              paragraph={"Sempre busco maneiras diretas para automatizar a solução dos problemas, realizando minhas tarefas com auto desempenho."}
+              subtitle={"Habilidades de infra:"}
+              paragraph1={"Redes, Switchs, TCP/IP"}
+              subtitle1={"Conhecimento de hardwares e softwares:"}
+              skills={["Instalação de impressoras", "Montagem de computadores", "Atualização de softwares e hardwares", "Sistemas operacionais", "Migração de rede"]} 
+              />
             </div>
           </div>
         </div>
