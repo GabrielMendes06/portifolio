@@ -3,6 +3,7 @@ import Instagram from "../imagens/instagram.png"
 import Email from "../imagens/o-email.png"
 import Github from "../imagens/github.png"
 import Home from "../imagens/home.png"
+import Whatsapp from "../imagens/whatsapp.png"
 
 
 export default Footer
@@ -21,6 +22,7 @@ function Footer() {
                     <a href="https://github.com/GabrielMendes06" target="blank" className="button-medium"><img src={Github} className="icon-small"></img></a>
                     <a href="mailto:gabriel.mendes17@outlook.com" target="blank" className="button-medium"><img src={Email} className="icon-small"></img></a>
                     <a href="https://www.instagram.com/mendezz_gabriel/" target="blank" className="button-medium"><img src={Instagram} className="icon-small"></img></a>
+                    <a href="https://wa.me/5511977829550" target="blank" className="button-medium"><img src={Whatsapp} className="icon-small"></img></a>
                 </div>
                 <div className="copyright">
                     <p className="textcopy">Criado por Gabriel Mendes &copy; </p>
