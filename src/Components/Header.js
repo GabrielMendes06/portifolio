@@ -5,7 +5,7 @@ function Header() {
   return (
     <nav id="nav">
       <div id="containerHeader">
-       <IconG wsize={90} />
+       <IconG wsize={80} />
       </div>
     </nav>
   );

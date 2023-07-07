@@ -129,7 +129,7 @@ body {
 
 .mid-background {
   width: 100%;
-  background-color: rgb(111, 4, 199);
+  background-color: rgb(106, 11, 230);
   padding-top: 150px;
   padding-bottom: 200px;
 }
@@ -317,10 +317,10 @@ body {
 
 .texto-footer {
   text-align: center;
-  color: rgba(255, 255, 255, 0.616);
+  color: rgba(255, 255, 255, 0.753);
   margin: auto;
-  font-family: 'Times New Roman', Times, serif; 
-  font-size: 1.6em;
+  font-family: "Open Sans";
+  font-size: 1.4em;
   max-width: 350px;
   margin-top: 50px;
 }
@@ -334,8 +334,8 @@ body {
 
 .icon-small {
   display: flex;
-  width: 25px;
-  margin: 20px;
+  width: 24px;
+  margin: 10px;
 }
 
 .button-medium {
@@ -348,10 +348,14 @@ body {
   filter: invert(40%);
 }
 
-#g {
-  border: 1px solid rgba(0, 0, 0, 0.507);
-  border-radius: 50%;
-  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.411);
+.g {
+  width: 60px;
+  transition: 0.5;
+}
+
+.g:hover {
+  width: 70px;
+  transition: 0.5s;
 }
 
 .copyright {
@@ -361,10 +365,19 @@ body {
 
 .textcopy {
   text-align: center;
-  color: rgba(255, 255, 255, 0.726);
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 1.4em;
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.514) ;
+  color: rgba(255, 255, 255, 0.815);
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.icon-home {
+  width: 60px;
+}
+
+.icon-home:hover {
+  width: 80px;
+  transition: 0.5s;
 }
 
 @media (max-width: 700px) 
@@ -381,5 +394,9 @@ body {
 
   .button-medium {
     margin: 2%;
+  }
+
+  #containerHeader{
+    justify-content: center;
   }
 }
