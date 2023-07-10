@@ -15,5 +15,5 @@ function SkillContainer(props) {
         ))}
       </ul>
     </div>
-  )
+  );
 }

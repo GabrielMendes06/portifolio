@@ -26,6 +26,19 @@ body {
   margin-bottom: 20px;
   color: rgb(36, 32, 56);
   font-weight: bolder;
+
+  overflow: hidden;
+  text-align: center;
+}
+
+.text-p {
+  margin-bottom: 20px;
+  color: rgb(36, 32, 56);
+  font-size: 1.3em;
+  font-weight: 400;
+
+  overflow: hidden;
+  text-align: center;
 }
 
 #nav {
@@ -103,14 +116,11 @@ body {
 }
 
 #colums {
-  text-align: center;
-}
-
-.text-p {
-  margin-bottom: 20px;
-  color: rgb(36, 32, 56);
-  font-size: 1.3em;
-  font-weight: 400;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 #cabecalho-computer {
@@ -350,13 +360,13 @@ body {
 
 .g {
   width: 60px;
-  transition: 0.5;
 }
 
 .g:hover {
   width: 70px;
   transition: 0.5s;
 }
+
 
 .copyright {
   width: 100%;
