@@ -51,7 +51,7 @@ function MediumPage() {
       <div className="colums-centered">
         <div
           className="colum-text"
-          style={{ paddingTop: "100px", paddingBottom: "250px" }}
+          style={{ paddingTop: "50px", paddingBottom: "250px" }}
         >
           <h1 className="titles-black">
             Achou o visual do meu portifólio agradável ?
