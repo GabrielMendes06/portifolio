@@ -7,8 +7,7 @@ import BackToTopButton from "./BackToTopButton";
 
 function Main() {
   return (
-    <main id="corpo">
-      
+    <main id="corpo">      
         <ContainerEarly
           title={"Desenvolvedor Frontend :)"}
           paragraph={

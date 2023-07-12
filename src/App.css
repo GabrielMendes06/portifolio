@@ -99,6 +99,7 @@ body {
   display: flex;
   align-items: center;
   max-width: 200px;
+  transition: 0.5s;
 }
 
 /*CSS MAIN-CARTOON*/
@@ -360,6 +361,7 @@ body {
 
 .g {
   width: 60px;
+  transition: 0.5s;
 }
 
 .g:hover {
@@ -383,6 +385,7 @@ body {
 
 .icon-home {
   width: 60px;
+  transition: 0.5s;
 }
 
 .icon-home:hover {
