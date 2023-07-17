@@ -182,6 +182,9 @@ body {
   margin-top: -100px;
   text-align: center;
   margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container-narrow {
@@ -262,13 +265,13 @@ body {
   margin-bottom: 20px;
 }
 
-#container-poke {
+.container-poke {
   max-width: 350px;
   border: 1px solid rgba(211, 206, 206, 0.459);
   border-radius: 20px;
   width: 350px;
   height: 220px;
-  margin: auto;
+  margin: 20px;
 }
 
 .link-box {
@@ -316,9 +319,20 @@ body {
   width: 100%;
   height: 100%;
   border-radius: 20px;
-  background-image: url("../src/imagens/pokedex.png");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+#projeto-poke {
+    background-image: url("../src/imagens/pokedex.png");
+}
+
+#projeto-login {
+  background-image: url(imagens/login.png);
+}
+
+#projeto-login > .link-box > a {
+  display: none;
 }
 
 .purple-but:hover {
@@ -412,5 +426,9 @@ body {
 
   #containerHeader{
     justify-content: center;
+  }
+
+  .section-startups {
+    flex-direction: column;
   }
 }
