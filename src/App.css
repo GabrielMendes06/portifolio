@@ -361,13 +361,13 @@ body {
 .icon-small {
   display: flex;
   width: 24px;
-  margin: 10px;
+  margin: 20px;
 }
 
 .button-medium {
   margin: 20px;
   border-radius: 50%;
-  border: 1px solid white;
+  border: 3px solid white;
 }
 
 .button-medium:hover {
