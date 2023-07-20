@@ -1,6 +1,7 @@
 import { useState } from "react";
 import MidlePurple from "./MidlePurple";
 import Projetos from "./Projetos";
+import Redirect from "./Redirect";
 
 function MediumPage() {
   const imgBox = document.querySelector("#img-box");
@@ -10,16 +11,18 @@ function MediumPage() {
     <div>
       <MidlePurple
         title="Meus Projetos!"
-        paragraph="Ultimamente venho pesquisando sobre projetos para desenvolver e adicionar ao meu portifólio, sei que é um passo importante para quem ainda é carente de experiência profissional comprovada, então, aqui adicionarei meus projetos que serão disponibilizados quando eu os finalizar. Enquanto eu não os tenho disponível, fique a vontade para desfrutar da minha pequena Pokedex!"
+        paragraph="Ultimamente venho pesquisando sobre projetos para desenvolver e adicionar ao meu portifólio, fique a vontade para dar uma olhada nos projetos que venho desenvolvendo logo abaixo!"
       />
       <section className="section-startups">
        <Projetos 
        description={"Esse é o meu projeto com APIs do pokemon"}
        idProjeto={"projeto-poke"}
+       component={<Redirect url={"https://gabrielmendes06.github.io/pokeapi/"}/>}
        /> 
        <Projetos 
-       description={"Projeto em andamento..."}
+       description={"Projeto de admnistração com tela de login!"}
        idProjeto={"projeto-login"}
+       component={<Redirect url={"https://login-two-mauve.vercel.app/"}/>}
        />
       </section>
       <div className="colums-centered">

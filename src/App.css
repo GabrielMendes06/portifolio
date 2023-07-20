@@ -329,10 +329,9 @@ body {
 
 #projeto-login {
   background-image: url(imagens/login.png);
-}
-
-#projeto-login > .link-box > a {
-  display: none;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .purple-but:hover {
