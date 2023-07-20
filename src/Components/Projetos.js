@@ -20,7 +20,7 @@ function Projetos(props) {
     >
       <div className="box" id="box-poke">
         <div className="site-image" id={props.idProjeto}>
-          {/* <img src={Pokedex} id="pokedex"></img> */}
+          {/* <img src={Pokedex} id="pokedex"></img> */} 
           <div
             className="link-box"
             style={{ opacity: display, transition: "all 0.5s" }}
