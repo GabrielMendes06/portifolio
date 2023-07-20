@@ -32,7 +32,7 @@ function Projetos(props) {
           </div>
         </div>
       </div>
-    </div>
+    </div> 
   );
 }
 
