@@ -10,7 +10,7 @@ function ContainerEarly(props) {
               <p className="text-p" id="typing-animation-p">
                 {props.paragraph}
               </p>
-              <a href="https://drive.google.com/file/d/1g_fQVu5XVjJY5L-V4B-IvoBw5XfP1peB/view?usp=drive_link" className="purple-but" target="blank" style={{marginTop: "20px"}}>CV - Gabriel Mendes</a>
+              <a href="https://drive.google.com/file/d/1OA6599pr0Uc9R7CKI5Eek1P0MBCTBHZN/view?usp=sharing" className="purple-but" target="blank" style={{marginTop: "20px"}}>CV - Gabriel Mendes</a>
             </div>             
     )
 }
