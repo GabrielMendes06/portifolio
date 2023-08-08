@@ -14,9 +14,9 @@ function StartUp() {
               title={"Developer"}
               paragraph={"Gosto de criar códigos do zero, mantendo sua formatação sempre limpa e de fácil entendimento."}
               subtitle={"Ferramentas de desenvolvedor:"}
-              paragraph1={"Git, Vercel, GitHub, Postman"}
+              paragraph1={"Git, Vercel, GitHub, Postman, Insomnia"}
               subtitle1={"Linguagens:"}
-              skills={["HTML", "CSS", "JavaScript", "React.js", "Next.js", "PowerApp(M365)", "Bootstrap"]}
+              skills={["HTML", "CSS", "JavaScript", "React.js", "Next.js", "Node.js", "MySQL", "Microsoft 365"]}
               bRight={"1px solid rgba(211, 206, 206, 0.575)"}
               />
               <SkillContainer
