@@ -331,7 +331,14 @@ body {
   background-image: url(imagens/login.png);
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 110%;
+}
+
+#earth-museum {
+  background-image: url(../src/imagens/earth-museum_2.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 120%;
 }
 
 .purple-but:hover {

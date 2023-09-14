@@ -1,4 +1,3 @@
-import { useState } from "react";
 import MidlePurple from "./MidlePurple";
 import Projetos from "./Projetos";
 import Redirect from "./Redirect";
@@ -15,14 +14,19 @@ function MediumPage() {
       />
       <section className="section-startups">
        <Projetos 
-       description={"Esse é o meu projeto com APIs do pokemon"}
+       description={"Pokedex com pokeAPI"}
        idProjeto={"projeto-poke"}
        component={<Redirect url={"https://gabrielmendes06.github.io/pokeapi/"}/>}
        /> 
        <Projetos 
-       description={"Projeto de admnistração com tela de login!"}
+       description={"Aplicativo de gestão financeira com tela de login! (Disponível apenas em localhost)"}
        idProjeto={"projeto-login"}
        component={<Redirect url={"https://login-two-mauve.vercel.app/"}/>}
+       />
+       <Projetos 
+       description={"EarthMuseum"}
+       idProjeto={"earth-museum"}
+       component={<Redirect url={"https://bootstrap-project-ccg4ofbs7-gabrielmendes06.vercel.app/"}/>}
        />
       </section>
       <div className="colums-centered">
