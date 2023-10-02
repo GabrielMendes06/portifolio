@@ -3,9 +3,6 @@ import Projetos from "./Projetos";
 import Redirect from "./Redirect";
 
 function MediumPage() {
-  const imgBox = document.querySelector("#img-box");
-
-
   return (
     <div>
       <MidlePurple
@@ -27,6 +24,11 @@ function MediumPage() {
        description={"EarthMuseum"}
        idProjeto={"earth-museum"}
        component={<Redirect url={"https://bootstrap-project-ccg4ofbs7-gabrielmendes06.vercel.app/"}/>}
+       />
+       <Projetos 
+       description={"SolarSystem"}
+       idProjeto={"solar-system"}
+       component={<Redirect url={"https://solar-system-livid-five.vercel.app/"}/>}
        />
       </section>
       <div className="colums-centered">

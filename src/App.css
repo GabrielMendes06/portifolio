@@ -341,6 +341,13 @@ body {
   background-size: 120%;
 }
 
+#solar-system {
+  background-image: url(../src/imagens/solarsystem.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 120%;
+}
+
 .purple-but:hover {
   background-color: rgb(146, 45, 228);
   color: white;

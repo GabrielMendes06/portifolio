@@ -3,7 +3,6 @@ import MidlePurple from "./MidlePurple";
 import ContainerEarly from "./ContainerEarly";
 import ContainerCartoon from "./ContainerCartoon";
 import StartUp from "./StartUp";
-import BackToTopButton from "./BackToTopButton";
 
 function Main() {
   return (
