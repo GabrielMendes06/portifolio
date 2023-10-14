@@ -1,4 +1,4 @@
-import PurpleTecnology from "../imagens/cartoon.png";
+import PurpleTecnology from "../imagens/cartoon.webp";
 import MidlePurple from "./MidlePurple";
 import ContainerEarly from "./ContainerEarly";
 import ContainerCartoon from "./ContainerCartoon";
